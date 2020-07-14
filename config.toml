@@ -19,6 +19,17 @@ theme = "LoveIt"
 
 [menu]
   [[menu.main]]
+    identifier = "home"
+    # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
+    post = ""
+    name = "主页"
+    url = "/"
+    # 当你将鼠标悬停在此菜单链接上时, 将显示的标题
+    title = ""
+    weight = 1
+  [[menu.main]]
     identifier = "posts"
     # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
     pre = ""
@@ -115,7 +126,7 @@ theme = "LoveIt"
   # LoveIt 更改 | 0.2.0 LoveIt 主题版本
   version = "0.2.X"
   # 网站描述
-  description = "这是我的全新 Hugo 网站"
+  description = "Stay Simple, Stay Young"
   # 网站关键词
   keywords = ["Theme", "Hugo"]
   # 网站默认主题样式 ("light", "dark", "auto")
@@ -128,7 +139,7 @@ theme = "LoveIt"
   # LoveIt 新增 | 0.2.0 日期格式
   dateFormat = "2006-01-02"
   # 网站图片, 用于 Open Graph 和 Twitter Cards
-  images = ["/logo.png"]
+  images = ["/favicon-32x32.png"]
 
   # LoveIt 新增 | 0.2.0 应用图标配置
   [params.app]
@@ -179,7 +190,7 @@ theme = "LoveIt"
       logo = ""
       # 标题名称
       name = "Sam's Garage"
-      # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
+      # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标  far线图，fa面图
       pre = "<i class='far fa-kiss-wink-heart fa-fw'></i>"
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
       post = ""
@@ -210,7 +221,7 @@ theme = "LoveIt"
     paginate = 20
     # 日期格式 (月和日)
     dateFormat = "01-02"
-    # RSS 文章数目
+    #  文章数目
     rss = 10
 
   # LoveIt 新增 | 0.2.0 List (目录或标签) 页面配置
@@ -234,9 +245,9 @@ theme = "LoveIt"
       # 主页显示头像的 URL
       avatarURL = "/images/avatar.png"
       # LoveIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
-      title = "Hi, I'm Sam"
+      title = "Hey, I'm Sam"
       # 主页显示的网站副标题
-      subtitle = "这是我的全新 Hugo 网站"
+      subtitle = "每一天都是新的开始，Stay Simple，Stay Young！"
       # 是否为副标题显示打字机动画
       typeit = true
       # 是否显示社交账号
@@ -317,7 +328,7 @@ theme = "LoveIt"
     Matrix = ""
     Bilibili = ""
     Email = "ryuukousen@gmail.com"
-    RSS = false # LoveIt 新增 | 0.2.0
+    RSS = true # LoveIt 新增 | 0.2.0
 
   # LoveIt 更改 | 0.2.0 文章页面配置
   [params.page]
@@ -346,7 +357,7 @@ theme = "LoveIt"
       # LoveIt 新增 | 0.2.9 是否保持使用文章前面的静态目录
       keepStatic = false
       # 是否使侧边目录自动折叠展开
-      auto = false
+      auto = true
     # LoveIt 新增 | 0.2.0 代码配置
     [params.page.code]
       # 是否显示代码块的复制按钮
