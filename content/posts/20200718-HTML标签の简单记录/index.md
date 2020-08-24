@@ -14,7 +14,7 @@ resources:
   src: "featured-image.jpg"
 
 tags: ["HTML","标签","笔记"]
-categories: ["入门"]
+categories: ["HTML 入门"]
 license: "转载请注明出处"
 ---
 

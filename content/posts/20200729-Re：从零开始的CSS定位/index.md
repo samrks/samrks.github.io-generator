@@ -14,7 +14,7 @@ resources:
   src: "featured-image.jpg"
 
 tags: ["CSS","笔记"]
-categories: ["入门"]
+categories: ["CSS 入门"]
 license: "转载请注明出处"
 ---
 
@@ -142,7 +142,7 @@ background 背景
 
 +   如上，`“文字内容”` 和 `div.childDiv` 属于同级关系
 +   结论：
-    
+  
     +   块级元素位于文字下层
     
         <img src="https://i.loli.net/2020/07/28/AGs1BEK8aq2XQRr.png" alt="image-20200728013952071" style="zoom:50%;" />
@@ -173,7 +173,7 @@ background 背景
 ```
 
 +   结论：
-    
+  
     +   浮动元素位于文字下层
     
         <img src="https://i.loli.net/2020/07/28/2VFuewkUgYM4atb.png" alt="image-20200728014640604" style="zoom:50%;" />

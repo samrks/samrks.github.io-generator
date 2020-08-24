@@ -14,7 +14,7 @@ resources:
   src: "featured-image.jpg"
 
 tags: ["CSS","笔记"]
-categories: ["入门"]
+categories: ["CSS 入门"]
 license: "转载请注明出处"
 ---
 

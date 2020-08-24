@@ -16,7 +16,7 @@ linkedin:
 
 # 003: Twitter
 twitter:
-  Weight: 3
+  Weight: 4
   Prefix: https://twitter.com/
   Title: Twitter
   Icon:
@@ -24,7 +24,7 @@ twitter:
 
 # 004: Instagram
 instagram:
-  Weight: 4
+  Weight: 3
   Prefix: https://www.instagram.com/
   Title: Instagram
   Icon:
@@ -344,13 +344,14 @@ whatsapp:
 
 # 044: 知乎
 zhihu:
-  Weight: 44
+  Weight: 2
   Prefix: https://www.zhihu.com/people/
   Title: 知乎
   Icon:
     Simpleicons: zhihu
 
-# 045: 豆瓣
+
+045: 豆瓣
 douban:
   Weight: 45
   Prefix: https://www.douban.com/people/
@@ -509,3 +510,11 @@ rss:
   Newtab: true
   Icon:
     Class: fas fa-rss fa-fw
+
+# 045: 掘金
+juejin:
+  Weight: 1
+  Prefix: https://juejin.im/user/
+  Title: 掘金
+  Icon:
+    Src: svg/icons/juejin.svg

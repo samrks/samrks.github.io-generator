@@ -11,7 +11,7 @@ description: "😎💋"
 license: "转载请注明出处"
 
 tags: ["HTML","笔记"]
-categories: ["入门"]
+categories: ["HTML 入门"]
 
 lightgallery: true
 resources:

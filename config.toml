@@ -247,7 +247,7 @@ theme = "LoveIt"
       # LoveIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
       title = "👋🏻 Hey, I'm Sam"
       # 主页显示的网站副标题
-      subtitle = " 求知若渴，谦卑若愚。Stay Simple, Stay Hard "
+      subtitle = "  求知若渴，谦卑若愚。Stay Simple, Stay Hard"
       # 是否为副标题显示打字机动画
       typeit = true
       # 是否显示社交账号
@@ -294,7 +294,7 @@ theme = "LoveIt"
     Soundcloud = "samryuu"
     Spotify = ""
     Bandcamp = ""
-    Paypal = "samliu9011"  # samliu9011
+    # Paypal = "samliu9011"  # samliu9011
     Fivehundredpx = ""
     Mix = ""
     Goodreads = ""
@@ -308,7 +308,8 @@ theme = "LoveIt"
     Strava = ""
     Skype = ""
     Whatsapp = ""
-    Zhihu = "sammyrocks"
+    # Zhihu = "sammyrocks/posts"
+    # Juejin = "1011206429616429/posts"
     Douban = ""
     Angellist = ""
     Slidershare = ""
@@ -328,7 +329,7 @@ theme = "LoveIt"
     Matrix = ""
     Bilibili = ""
     Email = "ryuukousen@gmail.com"
-    RSS = true # LoveIt 新增 | 0.2.0
+    RSS = false # LoveIt 新增 | 0.2.0
 
   # LoveIt 更改 | 0.2.0 文章页面配置
   [params.page]
@@ -400,14 +401,14 @@ theme = "LoveIt"
       Facebook = true
     #   Linkedin = false
     #   Whatsapp = true
-      Pinterest = true
+      Pinterest = false
     #   Tumblr = false
-    #   HackerNews = false
+      HackerNews = true
     #   Reddit = false
     #   VK = false
     #   Buffer = false
     #   Xing = false
-    #   Line = true
+      Line = true
     #   Instapaper = false
     #   Pocket = false
     #   Digg = false
@@ -415,12 +416,12 @@ theme = "LoveIt"
     #   Flipboard = false
       Weibo = true
     #   Renren = false
-    #   Myspace = true
+    #   Myspace = false
     #   Blogger = true
       Baidu = false
     #   Odnoklassniki = false
     #   Evernote = true
-    #   Skype = false
+    #   Skype = true
     #   Trello = false
     #   Mix = false
     # LoveIt 更改 | 0.2.0 评论系统设置
@@ -442,10 +443,10 @@ theme = "LoveIt"
         clientSecret = ""
       # Valine 评论系统设置
       [params.page.comment.valine]
-        enable = false
-        appId = ""
-        appKey = ""
-        placeholder = ""
+        enable = true
+        appId = "CfUKfSqtOvOnmsUdCmExO2ix-gzGzoHsz"
+        appKey = "l2R78qA3PuUSe1cCxw9WdVxz"
+        placeholder = "说点什么吧...（提醒：填写邮箱，若有人回复您，在服务器正常的情况下，您将及时收到提醒邮件！ps：服务器经常不正常！）"
         avatar = "mp"
         meta= ""
         pageSize = 10
@@ -460,7 +461,7 @@ theme = "LoveIt"
         # 位于 "themes/LoveIt/assets/data/emoji/" 目录
         # 可以在你的项目下相同路径存放你自己的数据文件:
         # "assets/data/emoji/"
-        emoji = ""
+        emoji = "twitter.yml"
       # Facebook 评论系统设置
       [params.page.comment.facebook]
         enable = false

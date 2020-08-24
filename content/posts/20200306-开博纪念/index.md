@@ -22,10 +22,10 @@ resources:
 
 
 
-每一天都是新的开始，Stay Simple，Stay Young<!--more-->
+每一天都是新的开始，Stay Simple，Stay Young 🎉<!--more-->
 
-## Yeah！
+## Yeah！🎉🎉
 
-> 每一天都是新的开始，Stay Simple，Stay Young
+> 996之余，想尝试成为段子手/键盘侠/杠精，均因胸无笔墨、无fà可suō而失败告终后，终于老老实实的回来敲敲学习笔记了~
 
 
